@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="design/style.css">
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <img src="images/icon-star.svg" alt="star" class="icon">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="rating">
+                <button class="btn one">1</button>
+                <button class="btn two">2</button>
+                <button class="btn three">3</button>
+                <button class="btn four">4</button>
+                <button class="btn five">5</button>
+            </div>
+            <button class="submit">SUBMIT</button>
+        </div>
+        <div class="thank-you">
+            <img src="images/illustration-thank-you.svg" alt="thank you" class="thank-you-img">
+            <h4>You selected <span class="value">0</span> out of 5</h4>
+            <h1 class="thank-you-h1">Thank you!</h1>
+            <p class="thank-you-p">We appreciate you taking the time to give a rating.
+                If you ever need more support, don't hesitate to get in touch!
+            </p>
+        </div>
+    </main>
+    <script src="interactive_rating_component.js"></script>
+</body>
+</html>
